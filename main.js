@@ -10,8 +10,7 @@ const takeNumber = function (bandName) {
         Write your awesome code here. See comments
         below for what should be returned.
     */
-  bandNumber += 1;
-  return `${bandNumber - 1}. ${bandName}`;
+  return `${bandNumber++}. ${bandName}`;
 };
 
 const scum = takeNumber("Galactic Scum");
